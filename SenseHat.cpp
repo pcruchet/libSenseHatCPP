@@ -13,7 +13,7 @@
 
 */
 
-#include "SenseHat.h"
+#include "SenseHatCPP.h"
 #include "font.h"
 
 static int is_framebuffer_device(const struct dirent *dir)

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libSenseHatCPP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SenseHatCPP" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SenseHatCPP" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="IMUDrivers/RTHumidity.cpp" />
+		<Unit filename="IMUDrivers/RTHumidity.h" />
+		<Unit filename="IMUDrivers/RTHumidityDefs.h" />
+		<Unit filename="IMUDrivers/RTHumidityHTS221.cpp" />
+		<Unit filename="IMUDrivers/RTHumidityHTS221.h" />
+		<Unit filename="IMUDrivers/RTHumidityHTU21D.cpp" />
+		<Unit filename="IMUDrivers/RTHumidityHTU21D.h" />
+		<Unit filename="IMUDrivers/RTIMU.cpp" />
+		<Unit filename="IMUDrivers/RTIMU.h" />
+		<Unit filename="IMUDrivers/RTIMUBMX055.cpp" />
+		<Unit filename="IMUDrivers/RTIMUBMX055.h" />
+		<Unit filename="IMUDrivers/RTIMUBNO055.cpp" />
+		<Unit filename="IMUDrivers/RTIMUBNO055.h" />
+		<Unit filename="IMUDrivers/RTIMUDefs.h" />
+		<Unit filename="IMUDrivers/RTIMUGD20HM303D.cpp" />
+		<Unit filename="IMUDrivers/RTIMUGD20HM303D.h" />
+		<Unit filename="IMUDrivers/RTIMUGD20HM303DLHC.cpp" />
+		<Unit filename="IMUDrivers/RTIMUGD20HM303DLHC.h" />
+		<Unit filename="IMUDrivers/RTIMUGD20M303DLHC.cpp" />
+		<Unit filename="IMUDrivers/RTIMUGD20M303DLHC.h" />
+		<Unit filename="IMUDrivers/RTIMULSM9DS0.cpp" />
+		<Unit filename="IMUDrivers/RTIMULSM9DS0.h" />
+		<Unit filename="IMUDrivers/RTIMULSM9DS1.cpp" />
+		<Unit filename="IMUDrivers/RTIMULSM9DS1.h" />
+		<Unit filename="IMUDrivers/RTIMUMPU9150.cpp" />
+		<Unit filename="IMUDrivers/RTIMUMPU9150.h" />
+		<Unit filename="IMUDrivers/RTIMUMPU9250.cpp" />
+		<Unit filename="IMUDrivers/RTIMUMPU9250.h" />
+		<Unit filename="IMUDrivers/RTIMUNull.cpp" />
+		<Unit filename="IMUDrivers/RTIMUNull.h" />
+		<Unit filename="IMUDrivers/RTPressure.cpp" />
+		<Unit filename="IMUDrivers/RTPressure.h" />
+		<Unit filename="IMUDrivers/RTPressureBMP180.cpp" />
+		<Unit filename="IMUDrivers/RTPressureBMP180.h" />
+		<Unit filename="IMUDrivers/RTPressureDefs.h" />
+		<Unit filename="IMUDrivers/RTPressureLPS25H.cpp" />
+		<Unit filename="IMUDrivers/RTPressureLPS25H.h" />
+		<Unit filename="IMUDrivers/RTPressureMS5611.cpp" />
+		<Unit filename="IMUDrivers/RTPressureMS5611.h" />
+		<Unit filename="IMUDrivers/RTPressureMS5637.cpp" />
+		<Unit filename="IMUDrivers/RTPressureMS5637.h" />
+		<Unit filename="SenseHat.cpp" />
+		<Unit filename="SenseHat.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
